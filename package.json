@@ -3,13 +3,32 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@fontsource/noto-sans": "^5.2.6",
+    "@fontsource/noto-sans-bengali": "^5.2.5",
+    "@fontsource/noto-sans-devanagari": "^5.2.5",
+    "@fontsource/noto-sans-tamil": "^5.2.5",
+    "@react-pdf-viewer/core": "^3.12.0",
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.2.0",
     "@testing-library/user-event": "^13.5.0",
+    "ajv": "^6.12.6",
+    "ajv-keywords": "^3.5.2",
+    "axios": "^1.8.4",
+    "file-loader": "^6.2.0",
+    "https-browserify": "^1.0.0",
+    "pdfjs-dist": "^3.4.120",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "react-dropzone": "^14.3.8",
+    "react-icons": "^5.5.0",
+    "react-media-recorder": "^1.7.1",
+    "react-pdf-viewer": "^0.1.0",
     "react-scripts": "5.0.1",
+    "react-select": "^5.10.1",
+    "recordrtc": "^5.6.2",
+    "stream-http": "^3.2.0",
+    "url": "^0.11.4",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -35,5 +54,13 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.3",
+    "process": "^0.11.10",
+    "react-app-rewired": "^2.2.1",
+    "stream-browserify": "^3.0.0",
+    "tailwindcss": "^3.4.17"
   }
 }
